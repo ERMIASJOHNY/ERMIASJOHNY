@@ -140,23 +140,22 @@ Projects built while learning modern web technologies.
 # 📅 2026 Roadmap
 
 ```text
-Python           ██████████████ 100%
+Python          
 
-OOP              ███████████░░ 80%
+OOP             
 
-HTML             ██████████░░░ 70%
+HTML            
 
-CSS              █████████░░░░ 65%
+CSS             
+JavaScript     
 
-JavaScript       ██████░░░░░░░ 45%
+React           
 
-React            ███░░░░░░░░░░ 25%
+Node.js         
 
-Node.js          ██░░░░░░░░░░░ 15%
+Express          
 
-Express          ██░░░░░░░░░░░ 10%
-
-SQL              ███░░░░░░░░░░ 20%
+SQL             
 ```
 
 ---
@@ -190,52 +189,3 @@ SQL              ███░░░░░░░░░░ 20%
 > "Code. Learn. Build. Repeat."
 
 </div>
-
----
-
-## 🐍 Snake Workflow
-
-`.github/workflows/snake.yml`
-
-```yaml
-name: Generate Snake
-
-on:
-  schedule:
-    - cron: "0 */12 * * *"
-
-  workflow_dispatch:
-
-permissions:
-  contents: write
-
-jobs:
-  build:
-
-    runs-on: ubuntu-latest
-
-    steps:
-      - uses: Platane/snk/svg-only@v3
-        with:
-          github_user_name: ERMIASJOHNY
-          outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-
-      - uses: crazy-max/ghaction-github-pages@v4
-        with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-```
-
----
-
-## 📊 Metrics
-
-<p align="center">
-
-<img src="https://github.com/lowlighter/metrics/blob/examples/github-metrics.svg" width="100%">
-
-</p>
