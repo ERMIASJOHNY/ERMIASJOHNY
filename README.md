@@ -26,7 +26,7 @@
 - React
 - Node.js
 - Express
-- SQL
+- My SQL
 - REST APIs
 
 🎯 2026 Goals
